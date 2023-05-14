@@ -25,7 +25,6 @@ function createMenuItem(name, price, type) {
 }
 
 function addIngredients(ingredient, ingredients) {
-  // if (ingredient === ingredients[i]) {
   if (!ingredients.includes(ingredient)) {
     return ingredients.push(ingredient);
   }
